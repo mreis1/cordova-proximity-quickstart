@@ -3,7 +3,8 @@ angular.module('com.unarin.cordova.proximity.quickstart', [
 	'com.unarin.cordova.proximity.quickstart.proximity-manager',
 	'com.unarin.cordova.proximity.quickstart.monitoring',
 	'com.unarin.cordova.proximity.quickstart.eventlog',
-	'com.unarin.cordova.proximity.quickstart.ranging'
+	'com.unarin.cordova.proximity.quickstart.ranging',
+    'com.unarin.cordova.proximity.quickstart.advertising'
 ]).config(function ($stateProvider, $urlRouterProvider) {
 
 	window.console.debug('Configuring com.unarin.cordova.proximity.quickstart');
